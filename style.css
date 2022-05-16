@@ -1,0 +1,121 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*SEKTION 2*/
+
+/* ========== section ========== */
+.section_2 {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+  gap: 1rem;
+  place-items: center;
+  background: #8e7eb3;
+}
+
+/* ========== article ========== */
+article {
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 1.5rem;
+}
+.content > p {
+  color: #72f1b8;
+}
+
+p + figure {
+  margin-top: 1rem;
+}
+
+/* ========== gallery ========== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*SEKTION 3*/
+
+.section_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1200px));
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 1rem;
+  padding-block: 3rem;
+  background: rgb(216, 193, 158);
+}
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-top: 5px;
+}
+
+/*SEKTION 4*/
+
+/* ========== section ========== */
+.section_4 {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+  gap: 1rem;
+  place-items: center;
+  background: #8e7eb3;
+}
+
+/* ========== article ========== */
+article {
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 1.5rem;
+}
+.content > p {
+  color: #72f1b8;
+}
+
+p + figure {
+  margin-top: 1rem;
+}
+
+/* ========== gallery ========== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*SEKTION 5*/
+
+.section_5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1200px));
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 1rem;
+  padding-block: 3rem;
+  background: rgb(216, 193, 158);
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-top: 5px;
+}
