@@ -121,7 +121,7 @@ p {
 }
 
 header nav ul {
-  background: rgb(49, 49, 49);
+  background: rgb(2, 2, 2);
   display: flex;
   justify-content: center;
   flex-flow: wrap;
@@ -133,7 +133,7 @@ header li {
 }
 
 header a {
-  color: rgb(216, 193, 158);
+  color: rgb(255, 255, 255);
 }
 
 header a:link {
@@ -141,5 +141,5 @@ header a:link {
 }
 
 header a:hover {
-  color: #f7931e;
+  color: #fdfdfd;
 }
