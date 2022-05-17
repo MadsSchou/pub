@@ -57,6 +57,13 @@ p {
   padding-block: 3rem;
   background: #156da9;
 }
+.section_4 {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
+  gap: 1rem;
+  padding-block: 3rem;
+  background: #156da9;
+}
 
 .section_2 p,
 .section_4 p {
