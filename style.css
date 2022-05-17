@@ -55,7 +55,7 @@ p {
   grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
   gap: 1rem;
   padding-block: 3rem;
-  background: #8e7eb3;
+  background: #156da9;
 }
 
 .section_2 p,
@@ -97,7 +97,7 @@ p {
   grid-template-columns: 1fr minmax(auto, 1200px) 1fr;
   gap: 1rem;
   place-items: center;
-  background: #8e7eb3;
+  background: #156da9;
 }
 
 /*SEKTION 5*/
