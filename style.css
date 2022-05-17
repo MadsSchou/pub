@@ -120,6 +120,14 @@ p {
   background: rgb(74, 133, 72);
 }
 
+footer {
+  display: grid;
+  place-content: center;
+  color: white;
+  padding: 1em 1em;
+  background: #156da9;
+}
+
 header nav ul {
   background: rgb(2, 2, 2);
   display: flex;
